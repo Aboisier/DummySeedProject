@@ -1,0 +1,17 @@
+{
+    "name": "Mycspace - TEAM NAME",
+    "repository": "https://github.com/Aboisier/CS2019_TSE_seed",
+    "scripts": {},
+    "env": {},
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
